@@ -1,14 +1,14 @@
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8086/eureka
-server:
-  port: 8090
-spring: 
-  application:
-    name: HystrixDashboardDemo
+#eureka:
+  #client:
+    #service-url:
+      #defaultZone: http://localhost:8086/eureka
+#server:
+  #port: 8090
+#spring: 
+  #application:
+    #name: HystrixDashboardDemo
 
-turbine:
-  aggregator:
-    clusterConfig: HystrixDashboardDemo
-  appConfig: HYSTRIXDEMO, HYSTRIXCLIENTDEMO
+#turbine:
+  #aggregator:
+    #clusterConfig: HystrixDashboardDemo
+  #appConfig: HYSTRIXDEMO, HYSTRIXCLIENTDEMO
